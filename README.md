@@ -1,2 +1,2 @@
-# Porject-Thechu
+# Project-Thechu
 thechu
