@@ -444,7 +444,8 @@ fieldset {
 }
 
 legend {
-    box-sizing  : border-box;
+    -webkit-box-sizing  : border-box;
+            box-sizing  : border-box;
     color       : inherit;
     display     : table;
     max-width   : 100%;
@@ -462,7 +463,8 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+            box-sizing : border-box;
     padding    : 0;
 }
 
@@ -3387,7 +3389,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__bg {
     display             : block;
-    background-image    : url(img/header/THECHU\ TOKO.jpg);
+    background-image    : url(images/IMG_20240518_111808.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3446,7 +3448,7 @@ img.u-pull-left {
 
 .s-intro__content-bg {
     display             : block;
-    background-image    : url(img/header/THECHU\ TOKO.jpg);
+    background-image    : url(images/IMG_20240518_111808.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -4507,6 +4509,8 @@ img.u-pull-left {
     background-color : #0C0C0C;
     transition       : all .3s;
     position         : relative;
+    bottom: 5rem;
+    left: 1rem;
 }
 
 .ss-go-top a:focus svg path,
@@ -4567,6 +4571,7 @@ img.u-pull-left {
     .ss-go-top a {
         height : var(--vspace-1_75);
         width  : var(--vspace-1_75);
+        bottom: 8rem;
     }
 
     .ss-go-top svg {
